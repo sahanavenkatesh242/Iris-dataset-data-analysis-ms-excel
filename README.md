@@ -21,18 +21,20 @@ _Reference_: https://hackernoon.com/15-excel-datasets-for-data-analytics-beginne
   To gain insights into the petal characteristics, the area of each species' petal is calculated using the formula:
       Petal Area = select ((petal length cell)*(petal width))
     
-    ![image](https://github.com/sahanavenkatesh242/Iris-dataset-data-analysis-ms-excel/assets/157820520/b7fa57e0-e600-489c-abcb-93b1a2240085)
+    ![image](https://github.com/sahanavenkatesh242/Iris-dataset-data-analysis-ms-excel/assets/157820520/41838b11-fa2b-40d3-ba5a-e0c75ebf3b44)
 
-    ![image](https://github.com/sahanavenkatesh242/Iris-dataset-data-analysis-ms-excel/assets/157820520/829b6d82-8147-4f16-9b67-764e9a0e544e)
 
-    With the help of pivot table and the pie chart, I could infer that virginica had the maximum petal length of 15.87 when compared to other species.
+    ![image](https://github.com/sahanavenkatesh242/Iris-dataset-data-analysis-ms-excel/assets/157820520/914d41a0-6ef5-4c96-bb11-2a9510f48fea)
+
+
+    With the help of the pivot table and the pie chart, I could infer that virginica had the maximum petal length of 11.29 when compared to other species.
   
   2. Transpose Function
   The transpose function in Excel is employed to switch the rows and columns of the dataset, providing an alternative view for analysis.
         Steps involved :
-           - Select and copy the rows and columns which needs to be interchanged.
-           - select the new empty cell and press CTRL + ALT + V (paste special short key) and choose transpose option.
-     This can be useful in various situations such as Changing Data Layout, Linking Data Across Sheets, dynamic data arrangment etc.
+           - Select and copy the rows and columns which need to be interchanged.
+           - select the new empty cell press CTRL + ALT + V (paste a special short key) and choose a transpose option.
+     This can be useful in various situations such as Changing Data Layout, Linking Data Across Sheets, dynamic data arrangement etc.
   
   3. Average Petal Area
   The average petal area for each species is calculated to understand the typical petal size within each category.
@@ -43,12 +45,12 @@ _Reference_: https://hackernoon.com/15-excel-datasets-for-data-analytics-beginne
 
 
   
-  The analysis is performed with the help of pivot table. This infers that virginica species has the higher average petal area when compared to otehr species.
+  The analysis is performed with the help of a pivot table. This infers that virginica species has a higher average petal area when compared to other species.
   
   4. Descriptive Analysis
   A comprehensive descriptive analysis is conducted, including mean, median, mode, standard deviation, minimum, and maximum values for sepal length, sepal width, petal length, and petal width 
   across all species.
-  Here the descriptive analysis is conducuted for sepal-length. 
+  Here the descriptive analysis is conducted for sepal-length. 
   
   5. Correlation between Petal Length and Petal Width
   A correlation analysis is performed to determine the relationship between petal length and petal width, providing insights into their interdependence.
@@ -61,18 +63,19 @@ _Reference_: https://hackernoon.com/15-excel-datasets-for-data-analytics-beginne
   6. Species Distribution
   The distribution of each species within the dataset is visualized to understand the representation of setosa, versicolor, and virginica flowers.
   
-  ![image](https://github.com/sahanavenkatesh242/Iris-dataset-data-analysis-ms-excel/assets/157820520/0a8ff1aa-1a61-461a-b4b2-3e75282b10ca)
+ ![image](https://github.com/sahanavenkatesh242/Iris-dataset-data-analysis-ms-excel/assets/157820520/025aeb1e-d43f-4375-97a3-29bd692e3d71)
+
 
   ![image](https://github.com/sahanavenkatesh242/Iris-dataset-data-analysis-ms-excel/assets/157820520/806bd7c7-ee41-4cfd-83fa-d25bdba0a454)
 
 
-  This infers that the species distribution is equal of 50 each. 
+  This infers that the species distribution is equal to 50 each. 
 
   ![image](https://github.com/sahanavenkatesh242/Iris-dataset-data-analysis-ms-excel/assets/157820520/977b8669-033e-409b-8668-d06b37710a3a)
   
-  The above image talks about the the distribution of petal-width in histogram. 
+  The above image talks about the distribution of petal width in the histogram. 
   
-  7. Finding the sum of sepal length, and average of petal width by using the Pivot table and visualized by using charts (pie and bar charts)
+  7. Finding the sum of sepal length, and average of petal width by using the Pivot table and visualizing by using charts (pie and bar charts)
 
    ![image](https://github.com/sahanavenkatesh242/Iris-dataset-data-analysis-ms-excel/assets/157820520/02d887b8-13c9-4199-af21-80d3fb94a938)
 
@@ -84,10 +87,10 @@ _Reference_: https://hackernoon.com/15-excel-datasets-for-data-analytics-beginne
   
   ![image](https://github.com/sahanavenkatesh242/Iris-dataset-data-analysis-ms-excel/assets/157820520/8dcc8cfc-e25a-4f88-b700-cdb3560a7868)
 
-  With the help of pivot table and the visulization, I could infer that virginica and setosa had the highest value for average petal width and sum of sepal width respectively. 
+  With the help of the pivot table and the visualization, I could infer that virginica and setosa had the highest value for average petal width and the sum of sepal width respectively. 
   
   8. Finding the maximum petal area of a specific species (ex: setosa)
-  By using maxifs, index and match, I could infer that 0.96 was the maximum petal area of setosa species.
+  By using maxifs, index, and match, I could infer that 0.96 was the maximum petal area of setosa species.
 
   ![image](https://github.com/sahanavenkatesh242/Iris-dataset-data-analysis-ms-excel/assets/157820520/216317b2-ea25-4e61-922f-e2ebae7bdf11)
 
