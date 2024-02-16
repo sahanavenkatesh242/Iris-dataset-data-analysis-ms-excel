@@ -101,9 +101,32 @@ This analyzed a positive correlation (a relationship between two variables that 
  
 
 8. Finding the maximum petal area of a specific species (ex: setosa)
-By using maxifs, index, and match, I could infer that 0.96 was the maximum petal area of setosa species.
+Using maxifs, index, and match, I could infer that 0.96 was the maximum petal area of setosa species.
 
 ![image](https://github.com/sahanavenkatesh242/Iris-dataset-data-analysis-ms-excel/assets/157820520/216317b2-ea25-4e61-922f-e2ebae7bdf11)
 
+9. Distribution of sepal length with 2 kinds of species.
+
+![image](https://github.com/sahanavenkatesh242/Iris-dataset-data-analysis-ms-excel/assets/157820520/946c6476-6a56-4ab1-8294-c56bb6b47e32)
+
+![image](https://github.com/sahanavenkatesh242/Iris-dataset-data-analysis-ms-excel/assets/157820520/4d646f17-34ab-440c-aa21-fef1aedb019d)
+
+![image](https://github.com/sahanavenkatesh242/Iris-dataset-data-analysis-ms-excel/assets/157820520/45e680b0-02b2-49bd-beca-664892cf4538)
+
+
+The above images are the plots of the distribution of sepal length of setosa and versicolor species of iris. The bin range has been varied to have a clear visualization. 
+
+10. Sepal length distribution with the cumulative %
+
+![image](https://github.com/sahanavenkatesh242/Iris-dataset-data-analysis-ms-excel/assets/157820520/9e1ed1a9-00a9-4fd1-a3be-df94639f78a0)
+
+For example to analyse the above plot
+23 species of iris have a sepal length in a range of 4.9 to 5.2
+From the 4th point of cumulative %, we can infer that 30% of iris species have a sepal length less than 5.2 mm 
+
+
+
+
+
   
-This analysis is performed using Microsoft Excel, and no additional libraries or tools are required. 
+This analysis is performed using Microsoft Excel; no additional libraries or tools are required. 
